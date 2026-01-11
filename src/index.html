@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gs_code</title>
+  </head>
+  <body>
+
+<!-- ブラウザで localhost:5173 を開く
+        ↓
+index.html が読み込まれる
+        ↓
+index.html が main.jsx を読み込む
+        ↓
+main.jsx が <App /> を「root」に描画する
+        ↓
+App.jsx が <Test /> などの部品を並べる
+        ↓
+Test.jsx が自分の見た目を返す
+
+表示部分はindex.htmlでmain.jsxでapp.jsxを起動し、
+app.jsxに記載されているコンポーネンツのjsxを使えるようにして、
+そのコンポーネンツはclassNameとhtml等で構成された部品であるみたいな感じ-->
+
+
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
